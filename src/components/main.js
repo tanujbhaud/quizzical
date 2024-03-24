@@ -6,7 +6,7 @@ import QuestionWithOptions from "./QuestionWithOptions";
 export default function Main() {
   const [loading, setloading] = useState(true);
   const [questionData, setQuestionData] = React.useState([]);
-  const [amount, setamount] = useState("");
+  const [amount, setamount] = useState("5");
   const [difficulty, setdifficulty] = useState("");
   const [category, setcategory] = useState("");
   const [type, settype] = useState("");
